@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+h1.welcome{
+    color: #9900ff;
+    margin-top: 3%;
+}
+p.welcome{
+    margin: 1% 0% 3%;
+}
+.log-reg{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dotted red; */
+}
+.reg, .log{
+    /* border: 1px dotted red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.log-reg h1{
+    margin-bottom: 3%;
+}
+.btn{
+    align-self: flex-end;
+}
+table{
+    margin-bottom: 3%;
+}
+.error{
+    color: red;
+}
